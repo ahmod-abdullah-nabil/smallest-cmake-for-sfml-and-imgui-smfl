@@ -29,5 +29,5 @@ FetchContent_Declare(ImGui-SFML
 FetchContent_MakeAvailable(ImGui-SFML)
 
 add_executable(SmallestCMakeForSFMLAndImGui src/main.cpp)
-target_compile_features(SmallestCMakeForSFMLAndImGui PRIVATE cxx_std_17)
+target_compile_features(SmallestCMakeForSFMLAndImGui PRIVATE cxx_std_20)
 target_link_libraries(SmallestCMakeForSFMLAndImGui PRIVATE SFML::Graphics ImGui-SFML::ImGui-SFML)
